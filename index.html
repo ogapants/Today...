@@ -2,11 +2,8 @@
 <html ng-app="myApp">
 
 <head>
-  <!-- 見た目用にBootstrapを使う -->
   <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <!-- AngularJS 1.5を公式サイトから引っ張ってくる -->
   <script src="//code.angularjs.org/1.5.7/angular.min.js"></script>
-  <!-- ↓↓↓自分で作ったJavaScriptはここから↓↓↓ -->
   <script src="app.js"></script>
 </head>
 
@@ -15,8 +12,8 @@
     <div>
       <form ng-submit="submit()">
         <div class="form-group">
-          <label for="input">Today is...</label>
-          <textarea name="kanso" rows="4" cols="40" type="text" class="form-control" id="input" placeholder="uu" ng-model="input">inp</textarea>
+          <label for="input">Today, Let’s do our best!</label>
+          <textarea name="kanso" rows="4" cols="40" type="text" class="form-control" id="input" placeholder="url" ng-model="input">inp</textarea>
         </div>
         <button type="submit" class="btn btn-primary">submit</button>
       </form>
